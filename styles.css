@@ -27,11 +27,19 @@ h1 {
 
 h2 {
         font-weight: 400;
-        text-transform: uppercase;
-    
+        text-transform: uppercase;    
         margin-bottom: 30px;
         font-size: 18px;
         line-height: 25px;
+}
+
+h4 {
+    font-size: 18px;
+    margin-bottom: 34px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    padding-left: 2px;
+    color: #FFFFFF;
 
 }
 
@@ -80,34 +88,31 @@ h2 {
     border-radius: 5px;
     }
 
-    .projects {
+ .projects {
     width: 1150px;
     margin: 0 auto;
   }
 
-    .projects_heading {
-
+ .projects_heading {
         box-sizing: border-box;
-        
-
     }
 
-    .projects_option {
+ .projects_option {
         margin: 0 auto;
     }
 
-    .projects_option_blok {
+ .projects_option_blok {
         width: 1150px;
         padding-bottom: 150px;
     }
 
-    .project__img {
+  .project__img {
         margin-bottom: 15px;
         width: 1150px;
         height: 450px;
     }
 
-    .projects__text {
+   .projects__text {
         margin-bottom: 15px;
         font-size: 30px;
         line-height: 41px;
@@ -154,13 +159,11 @@ h2 {
     }
 
     .services_title {
-
         margin: 0 auto;
         width: 1150px;
        box-sizing: border-box;
     }
-
-    
+ 
     .services__img {
         margin-bottom: 15px;
        margin-left: 1px;
@@ -171,6 +174,14 @@ h2 {
         letter-spacing: -0.03px; 
         padding-left: 4px;
         color: #FFFFFF;
+    }
+
+    .section_black {
+        margin-bottom: 60px;
+    }
+
+    .section_black:last-child {
+        margin-bottom: 0;
     }
 
 
