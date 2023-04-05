@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Manrope', sans-serif;
     width: 100%;
@@ -12,7 +16,48 @@ section:first-child {
     margin-top: 0;
 }
 
-h1, h2 {
+.nav_container {
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.Logo_Link {
+    display: inline-block;
+    margin-right: 468px;
+}
+
+
+.Logo {
+    display: block;
+    width: 127px;
+    height: 22px;
+}
+
+.nav {
+    display: inline-block;
+}
+
+.nav_link {
+    display: inline-block;
+    font-size: 18px;
+    height: 25px;
+    margin-left: 60px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    
+    text-decoration: none;
+    color: #121212;
+
+}
+
+.nav_link:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h4 {
     letter-spacing: -0.03em;
     color: #121212;
 }
@@ -27,10 +72,12 @@ h1 {
 
 h2 {
         font-weight: 400;
-        text-transform: uppercase;    
+        text-transform: uppercase;
+    
         margin-bottom: 30px;
         font-size: 18px;
         line-height: 25px;
+
 }
 
 h4 {
@@ -46,7 +93,7 @@ h4 {
 .bg-img {
     width: 1150px;
     height: 500px;
-    background-image: url(resources/fon_1.png);
+    background-image: url(resources/Кресло.png);
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
@@ -70,7 +117,7 @@ h4 {
     font-weight: 400;
     font-size: 45px;
     line-height: 61px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     letter-spacing: -0.03em;
     color: #121212;
     }
@@ -88,31 +135,34 @@ h4 {
     border-radius: 5px;
     }
 
- .projects {
+    .projects {
     width: 1150px;
     margin: 0 auto;
   }
 
- .projects_heading {
+    .projects_heading {
+
         box-sizing: border-box;
+        
+
     }
 
- .projects_option {
+    .projects_option {
         margin: 0 auto;
     }
 
- .projects_option_blok {
+    .projects_option_blok {
         width: 1150px;
         padding-bottom: 150px;
     }
 
-  .project__img {
+    .project__img {
         margin-bottom: 15px;
         width: 1150px;
         height: 450px;
     }
 
-   .projects__text {
+    .projects__text {
         margin-bottom: 15px;
         font-size: 30px;
         line-height: 41px;
@@ -159,17 +209,19 @@ h4 {
     }
 
     .services_title {
+
         margin: 0 auto;
         width: 1150px;
        box-sizing: border-box;
     }
- 
+
+    
     .services__img {
         margin-bottom: 15px;
        margin-left: 1px;
     }
 
-    .services__text_2 {
+    .services__img_text {
         font-size: 30px;
         letter-spacing: -0.03px; 
         padding-left: 4px;
@@ -177,14 +229,11 @@ h4 {
     }
 
     .section_black {
-        margin-bottom: 60px;
+        margin-bottom: 70px;
     }
 
     .section_black:last-child {
         margin-bottom: 0;
     }
 
-
-
-
-
+    
