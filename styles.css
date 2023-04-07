@@ -58,7 +58,6 @@ h1,
 h2,
 h4 {
   letter-spacing: -0.03em;
-  color: #121212;
 }
 
 h1 {
@@ -75,13 +74,11 @@ h2 {
   margin-bottom: 30px;
   font-size: 18px;
   line-height: 25px;
+  color: #121212
 }
 
-h4 {
-  font-size: 18px;
+.box h2 {
   margin-bottom: 34px;
-  line-height: 25px;
-  letter-spacing: -0.03em;
   padding-left: 2px;
   color: #ffffff;
 }
